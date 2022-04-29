@@ -1,0 +1,115 @@
+
+/* HERO BANNER */
+
+.hero {
+    display:flex;
+    height: 80vh;
+    align-items: center;
+    background-color: #FEFAF5;
+   
+}
+
+.hero__copy {
+    display: flex;
+    width: 45%;
+    margin-left: 5%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.hero__copy-heading {
+    padding: 0%;
+
+}
+
+.hero__copy-tagline {
+    padding: 6% 0%;
+}
+
+.hero__button {
+    color: white;
+    border-radius: 50px;
+    background-color: #DB7A4E;
+    border: none;
+    padding: 2% 8% 2% 8%;
+}
+
+.hero__image {
+    width: min-content;
+    height: 50vh;
+    margin-left: 12%;
+    margin-right: 8%;
+
+}
+
+
+/* BANNER IN MIDDLE WITH CARDS */
+
+.card-banner {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 4%;
+}
+
+.card-banner__heading {
+    margin: 2% 80% 0 0;
+    
+}
+
+.card-banner__gallery {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 0%;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+
+}
+
+.card-banner__destination {
+    color: white;
+    margin: 1rem;
+
+}
+
+.card-banner__card {
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width:28%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    text-decoration: none;
+
+}
+
+.card-banner__card--hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+
+}
+     
+.card-banner__card--iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+ 
+}
+
+.card-banner__card--greece {
+    background-image: url(../Assets/Images/greece.jpg);
+  
+}
+
+.card-banner__name {
+    text-align: right;
+    color: white;
+}

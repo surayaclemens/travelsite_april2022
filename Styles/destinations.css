@@ -1,0 +1,92 @@
+
+/* BANNER IN MIDDLE WITH CARDS */
+
+/* Titles: HAWAII, ICELAND, GREECE */
+.card-banner__heading {
+    width: min-content;
+    align-self: flex-start;
+    margin-left: 4%;
+    margin-top: 8%;
+
+}
+
+.card-banner {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-banner--greece {
+    background-image: url(../Assets/Images/greece.jpg);
+  
+}
+
+.card-banner--hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+  
+}
+
+.card-banner--iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+  
+}
+
+/* CONTAINER FOR 3 SCHEDULE CARDS */
+.card-banner__gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0% 0%;
+    width: 80%;
+
+}
+
+/* SCHEDULE CARDS */
+.card-banner__card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:25%;
+    height: 375px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+
+.card-banner__card-title {
+    color: black;
+    border-bottom: 2px solid black;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.activity-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    width: 90%;
+    margin-top: 6%;
+    
+}
+
+.activity-list__item {
+    background-color: #fefaf5;
+    margin: 4% 0%;
+    padding: 5%;
+    height: 20%;
+    text-align: center;
+    font-size: 1.15rem;
+
+}
